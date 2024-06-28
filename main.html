@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employment form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <p><b>Employment form</b></p>
+        <form action="">
+            <label for="fname">Enter your FirstName:</label>
+            <input type="text" id="fname" name="fname" size="30" maxlength="20" required><br><br>
+            <label for="pname">Enter your lastName:&nbsp;</label>
+            <input type="text" id="pname" name="pname" size="30" maxlength="20" required><br><br>
+            <label for="email">Enter your email(optional):</label>
+            <input type="email" name="email" id="email" size="30" ><br><br>
+            <label for="birthday">When is your Birthday?</label>
+            <input type="date" name="birthday" id="birthday" min="1990-01-01" max="2002-01-01" required><br><br>
+            <label for="maritalstatus">Are you single or married?</label><br><br>
+            <input type="radio" id="maritalstatus" name="maritalstatus">single
+            <input type="radio" name="maritalstatus" id="maritalstatus">married
+            <br><br>
+            <label for="family">How many people does your family have?</label>
+            <select name="family" id="family">
+                <option value="">2 people</option>
+                <option value="">3 people</option>
+                <option value="">4 people</option>
+                <option value="">5 people or more</option>
+            </select>
+            <br><br>
+            <label for="skills">Which of the following are you good at? </label><br><br>
+            <input type="checkbox" name="skills" id="skills">PHP
+            <input type="checkbox" name="skills" id="skills">Python
+            <input type="checkbox" name="skills" id="skills">HTML
+            <input type="checkbox" name="skills" id="skills">CSS
+            <input type="checkbox" name="skills" id="skills">C#
+            <br><br>
+            <label for="resume">Please upload your resume file:</label>
+            <input type="file" name="resume" id="resume" multiple required><br><br>
+            <label for="you">ٌWrite about yourself:</label><br><br>
+            <textarea name="you" id="you" wrap="hard" cols="50" rows="9"></textarea> <br><br>
+            <input type="button"  value="submit" onclick="alert('Your form has been submitted successfully')">
+            
+
+        </form> 
+</body>
+</html>

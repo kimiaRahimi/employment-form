@@ -1,0 +1,12 @@
+body {
+  
+    background-image: url(getty_690028746_284206.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255 , 255, 0.6);
+    background-blend-mode: lighten;
+}   
+p{
+  font-size:50px;
+}
